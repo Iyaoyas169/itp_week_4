@@ -26,7 +26,7 @@ result = clean_data["results"]
 # print(result[0])
 # print(result[0]['location']['name'])
 
-wb = openpyxl.load_workbook("./input.xlsx")
+wb = openpyxl.load_workbook("itp_week_4\day_1\output.xlsx")
 sheet = wb['Sheet1']
 
 sheet['A1'] = "Name"
